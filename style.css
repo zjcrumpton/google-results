@@ -1,0 +1,60 @@
+/*The Google Logo*/
+#google {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    width: 90px;
+}
+
+/*Search Bar*/
+#search_bar {
+    position: absolute;
+    top: 25px;
+    left: 140px;
+    width: 600px;
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: 0 0 10px grey;
+    border-top: white;
+    border-right: white;
+    border-bottom: white;
+    border-left: white;
+    font-family: Arial;
+    font-size: 13px;
+    
+}
+
+/*Icons*/
+#magnify {
+    width: 20px;
+    position: absolute;
+    left: 730px;
+    top: 36px;
+}
+
+#menu {
+    width: 17px;
+    position: absolute;
+    top: 36px;
+    left: 1150px;
+}
+
+/*Buttons*/
+#sign-in {
+    background-color: #4c8bf5;
+    font-family: Arial;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 3px;
+    margin: 0px;
+    position: absolute;
+    top: 30px;
+    left: 1190px;
+}
+
+placeholder {
+    color: green;
+}
