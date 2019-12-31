@@ -1,0 +1,1 @@
+A recreation of a Google search results page using HTML and CSS.
