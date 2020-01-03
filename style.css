@@ -25,11 +25,16 @@
 }
 
 /*Icons*/
-#magnify {
+#magnify_head {
     width: 20px;
     position: absolute;
     left: 730px;
     top: 36px;
+}
+
+#magnify_nav {
+    width: 14px;
+    padding-right: 2px;
 }
 
 #menu {
@@ -37,6 +42,32 @@
     position: absolute;
     top: 36px;
     left: 1150px;
+    padding-right: 2px;
+}
+
+#news_icon {
+    width: 16px;
+    padding-right: 2px;
+}
+
+#map_icon {
+    width: 18px;
+    padding-right: 2px;
+}
+
+#vid_icon {
+    width: 16px;
+    padding-right: 2px;
+}
+
+#shop_icon {
+    width: 15px;
+    padding-right: 2px;
+}
+
+#dot_stack_icon {
+    width: 15px;
+    padding-right: 2px;
 }
 
 /*Buttons*/
@@ -55,6 +86,51 @@
     left: 1190px;
 }
 
-placeholder {
-    color: green;
+/*Navbar*/
+.navbar {
+    /*background-color: teal;*/
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    left: 160px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ebebeb;
+    border-left-width: 100%;
+}
+
+.item {
+    padding-right: 20px;
+    font-size: 13px;
+    color: #5f6368;
+}
+
+#item_seven {
+    padding-left: 55px;
+    font-size: 13px;
+    color: #5f6368;
+}
+
+#item_eight {
+    font-size: 13px;
+    padding-left: 20px;
+    color: #5f6368;
+}
+
+.item_one {
+    padding-right: 20px;
+    font-size: 13px;
+    color: #2b7ee9;
+}
+
+#bl_line {
+    height: 0;
+    border: 0;
+    border-top: 1px solid #1a73e8;
+    border-bottom: 1px solid #1a73e8;
+    width: 60px;
+    position: absolute;
+    top: 112px;
+    left: 150px;
+    margin-top: 10px;
 }
